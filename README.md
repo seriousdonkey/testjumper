@@ -5,9 +5,10 @@ This Visual Studio Code extension allows you to easily jump between your source 
 ## Currently Supported Files
 
 - JavaScript/TypeScript
-  - .spec. format
+  - name.spec.{js/ts} format
+  - name.test.{js/ts} format
 - Go
-  - \_test format
+  - name_test format
 
 ## Features
 
