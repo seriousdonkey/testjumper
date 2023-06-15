@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "testjumper.toggleFile",
-        "title": "Toggle between implementation and test code"
+        "title": "TestJumper: Toggle between source and test code"
       }
     ]
   },
