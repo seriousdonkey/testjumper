@@ -39,7 +39,8 @@ export function activate(context: vscode.ExtensionContext) {
         if (isOpen) {
           windowManager.openDocument(doc, viewColumn);
         } else {
-          windowManager.openDocument(doc);
+          const configuration = vscode.workspace.getConfiguration("testjumper");
+          windowManager.openDocument(doc, configuration.openBehaviour);
         }
       } catch (error: any) {
         windowManager.showErrorMessage(error.message);

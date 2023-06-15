@@ -1,4 +1,4 @@
-# TestJumper README
+# TestJumper
 
 This Visual Studio Code extension allows you to easily jump between your source and test files.
 
@@ -10,6 +10,14 @@ This Visual Studio Code extension allows you to easily jump between your source 
 - Go
   - name_test format
 
+Extensions via Pull-Request are welcome.
+
 ## Features
 
-**Coming soon...**
+- Open source or test file (bidirectional)
+- Open file in active editor or beside (configurable)
+- Toggle between files
+
+## How To Use
+
+- Trigger command 'TestJumper: Toggle between source and test code'

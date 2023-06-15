@@ -17,7 +17,19 @@
         "command": "testjumper.toggleFile",
         "title": "TestJumper: Toggle between source and test code"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Open behaviour",
+      "properties": {
+        "testjumper.openBehaviour": {
+          "type": "integer",
+          "enum": [-1, -2],
+          "enumItemLabels": ["Active", "Beside"],
+          "default": -1,
+          "description": "In which editor the file will be opened."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
