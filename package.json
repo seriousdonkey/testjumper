@@ -3,6 +3,8 @@
   "displayName": "TestJumper",
   "description": "Toggle between implementation and test code.",
   "version": "0.0.1",
+  "publisher": "seriousdonkey",
+  "repository": "https://github.com/seriousdonkey/testjumper",
   "engines": {
     "vscode": "^1.78.0"
   },
